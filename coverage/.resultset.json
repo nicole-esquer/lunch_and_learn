@@ -42,6 +42,37 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/country_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/recipe_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/video_service.rb": {
         "lines": [
           1,
@@ -63,15 +94,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/country_service.rb": {
-        "lines": [
-
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1668579935
+    "timestamp": 1668581028
   }
 }
