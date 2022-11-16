@@ -79,6 +79,19 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/image.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/recipe.rb": {
         "lines": [
           1,
@@ -92,6 +105,19 @@
           41,
           41,
           41,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/video.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -231,6 +257,6 @@
         }
       }
     },
-    "timestamp": 1668585413
+    "timestamp": 1668586560
   }
 }

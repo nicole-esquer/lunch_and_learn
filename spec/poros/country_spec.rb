@@ -1,14 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe Country do
-  describe 'instantiation' do
+  describe 'it exists' do
     let(:data) do
       { name:
         { common: 'laos' },
         latlng: [17.97, 102.6] }
     end
 
-    it 'instantiates described class' do
+    it 'has attributes' do
       country = Country.new(data)
 
       expect(country).to be_instance_of(Country)
