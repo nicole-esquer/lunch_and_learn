@@ -1,9 +1,9 @@
 class Video
   attr_reader :title,
-              :etag
+              :video_id
 
   def initialize(data)
-    @etag = data[:etag]
+    @video_id = data[:id][:videoId]
     @title = data[:snippet][:title]
   end
 end

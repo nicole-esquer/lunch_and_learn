@@ -5,5 +5,6 @@ class LearningResourceSerializer
   set_type :learning_resource
 
   attributes :country,
+             :video,
              :images
 end

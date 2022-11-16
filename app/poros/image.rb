@@ -3,7 +3,7 @@ class Image
               :url
 
   def initialize(data)
-    @tag = data[:alt_description]
-    @url = data[:urls][:regular]
+    @tag = data[:alt_description] 
+    @url = data[:urls][:raw]
   end
 end

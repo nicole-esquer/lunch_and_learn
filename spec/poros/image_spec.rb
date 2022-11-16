@@ -4,7 +4,7 @@ RSpec.describe Image do
   describe 'it exists' do
     let(:data) do
       { urls:
-        { regular: 'wwww.unisplash.com' },
+        { raw: 'wwww.unisplash.com' },
         alt_description: 'scenic background'}
     end
 
