@@ -1,6 +1,28 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/country_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/recipe_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          20,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/models/favorite.rb": {
         "lines": [
           1,
@@ -42,16 +64,48 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          21,
+          21,
+          21,
+          21,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/country_service.rb": {
         "lines": [
           1,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -60,14 +114,14 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null,
           null,
           null
@@ -94,8 +148,15 @@
         ],
         "branches": {
         }
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/recipes_controller.rb": {
+        "lines": [
+
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1668581028
+    "timestamp": 1668582796
   }
 }
