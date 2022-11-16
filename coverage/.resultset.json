@@ -45,7 +45,7 @@
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/models/user.rb": {
         "lines": [
           1,
-          2,
+          4,
           null,
           1,
           1,
@@ -59,7 +59,7 @@
           1,
           null,
           1,
-          1,
+          3,
           null,
           null
         ]
@@ -86,7 +86,7 @@
           null,
           null,
           1,
-          2,
+          1,
           1,
           null,
           null
@@ -140,14 +140,14 @@
         "lines": [
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -174,41 +174,12 @@
         "lines": [
           1,
           1,
-          2,
+          1,
           1,
           null,
           null,
           1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/learning_resources_controller.rb": {
-        "lines": [
           1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/video_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
           null,
           null
         ]
@@ -229,6 +200,12 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/recipe_serializer.rb": {
         "lines": [
           1,
@@ -244,14 +221,49 @@
           null
         ]
       },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/image_facade.rb": {
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/user_serializer.rb": {
         "lines": [
           1,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/users_controller.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          0,
+          3,
+          2,
+          null,
           1,
           1,
           null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
           null,
           null
         ]
@@ -272,16 +284,6 @@
         "branches": {
         }
       },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/user_serializer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/favorites_serializer.rb": {
         "lines": [
           0,
@@ -291,8 +293,49 @@
         ],
         "branches": {
         }
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/video_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/image_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/learning_resources_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1668589796
+    "timestamp": 1668593139
   }
 }
