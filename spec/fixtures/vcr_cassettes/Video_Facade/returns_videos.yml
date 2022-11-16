@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://youtube.googleapis.com/youtube/v3/search?channelId=&key=<key>&maxResults=1&part=snippet&q=laos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Wed, 16 Nov 2022 12:33:47 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+          "kind": "youtube#searchListResponse",
+          "etag": "-rJOGSIjuChJYRKgH9DvH_Yuk1A",
+          "nextPageToken": "CAEQAA",
+          "regionCode": "US",
+          "pageInfo": {
+            "totalResults": 1000000,
+            "resultsPerPage": 1
+          },
+          "items": [
+            {
+              "kind": "youtube#searchResult",
+              "etag": "dJw8PumsuuqiT9dZX0vJ1eC0Mms",
+              "id": {
+                "kind": "youtube#video",
+                "videoId": "dbmZQDySpzY"
+              },
+              "snippet": {
+                "publishedAt": "2018-01-31T12:24:17Z",
+                "channelId": "UCmmPgObSUPw1HL2lq6H4ffA",
+                "title": "Geography Now! LAOS",
+                "description": "No but seriously, what is up with those fireballs? Check out http://www.GeographyNow.com ! You asked for merch so we made it ...",
+                "thumbnails": {
+                  "default": {
+                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                  },
+                  "medium": {
+                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                  },
+                  "high": {
+                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                  }
+                },
+                "channelTitle": "Geography Now",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-01-31T12:24:17Z"
+              }
+            }
+          ]
+        }
+  recorded_at: Wed, 16 Nov 2022 12:33:47 GMT
+recorded_with: VCR 6.1.0
