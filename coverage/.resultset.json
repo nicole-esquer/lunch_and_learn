@@ -1,0 +1,38 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/video_service.rb": {
+        "lines": [
+          1,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1668578246
+  }
+}
