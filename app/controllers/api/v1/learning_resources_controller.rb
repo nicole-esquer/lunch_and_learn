@@ -1,7 +1,11 @@
 class Api::V1::LearningResourcesController < ApplicationController
   def index
-    video = VideoFacade.country_videos(params[:country])
-    image = ImageFacade.country_images(params[:country])
-    render json: LearningResourceSerializer.new(params[:country], video, image)
+    render json: LearningResourceSerializer.new(LearningResourceFacade.learning_resource(country_params[:country]))
+  end
+
+  private
+
+  def country_params
+    params.permit(:country)
   end
 end
