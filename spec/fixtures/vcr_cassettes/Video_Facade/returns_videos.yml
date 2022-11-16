@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://youtube.googleapis.com/youtube/v3/search?channelId=&key=<key>&maxResults=1&part=snippet&q=laos
+    uri: https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=<key>&maxResults=1&part=snippet&q=laos
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Wed, 16 Nov 2022 12:33:47 GMT
+      - Wed, 16 Nov 2022 18:12:15 GMT
       Server:
       - scaffolding on HTTPServer2
       Cache-Control:
@@ -46,49 +46,49 @@ http_interactions:
       string: |
         {
           "kind": "youtube#searchListResponse",
-          "etag": "-rJOGSIjuChJYRKgH9DvH_Yuk1A",
+          "etag": "oEDd1z-44XXdqLf7ROsrmeB-1PA",
           "nextPageToken": "CAEQAA",
           "regionCode": "US",
           "pageInfo": {
-            "totalResults": 1000000,
+            "totalResults": 28,
             "resultsPerPage": 1
           },
           "items": [
             {
               "kind": "youtube#searchResult",
-              "etag": "dJw8PumsuuqiT9dZX0vJ1eC0Mms",
+              "etag": "g_AANaDO0PP_y9-nAEiKyK7DquE",
               "id": {
                 "kind": "youtube#video",
-                "videoId": "dbmZQDySpzY"
+                "videoId": "uw8hjVqxMXw"
               },
               "snippet": {
-                "publishedAt": "2018-01-31T12:24:17Z",
-                "channelId": "UCmmPgObSUPw1HL2lq6H4ffA",
-                "title": "Geography Now! LAOS",
-                "description": "No but seriously, what is up with those fireballs? Check out http://www.GeographyNow.com ! You asked for merch so we made it ...",
+                "publishedAt": "2021-08-29T10:13:10Z",
+                "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+                "title": "A Super Quick History of Laos",
+                "description": "Audio Requiring Attribution: LukeIRL: https://freesound.org/people/LukeIRL/sounds/176134/ RTB45: ...",
                 "thumbnails": {
                   "default": {
-                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/default.jpg",
+                    "url": "https://i.ytimg.com/vi/uw8hjVqxMXw/default.jpg",
                     "width": 120,
                     "height": 90
                   },
                   "medium": {
-                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/mqdefault.jpg",
+                    "url": "https://i.ytimg.com/vi/uw8hjVqxMXw/mqdefault.jpg",
                     "width": 320,
                     "height": 180
                   },
                   "high": {
-                    "url": "https://i.ytimg.com/vi/dbmZQDySpzY/hqdefault.jpg",
+                    "url": "https://i.ytimg.com/vi/uw8hjVqxMXw/hqdefault.jpg",
                     "width": 480,
                     "height": 360
                   }
                 },
-                "channelTitle": "Geography Now",
+                "channelTitle": "Mr History",
                 "liveBroadcastContent": "none",
-                "publishTime": "2018-01-31T12:24:17Z"
+                "publishTime": "2021-08-29T10:13:10Z"
               }
             }
           ]
         }
-  recorded_at: Wed, 16 Nov 2022 12:33:47 GMT
+  recorded_at: Wed, 16 Nov 2022 18:12:15 GMT
 recorded_with: VCR 6.1.0
