@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Recipe do
-  describe 'instantiation' do
+  describe 'it exists' do
     let(:data) do
       { recipe:
         {
@@ -11,7 +11,7 @@ RSpec.describe Recipe do
         } }
     end
 
-    it 'instantiates described class' do
+    it 'has attributes' do
       country = 'peru'
       recipe = Recipe.new(data, country)
       

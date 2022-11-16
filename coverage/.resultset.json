@@ -79,6 +79,19 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/image.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/recipe.rb": {
         "lines": [
           1,
@@ -96,6 +109,19 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/poros/video.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/country_service.rb": {
         "lines": [
           1,
@@ -106,6 +132,23 @@
           null,
           1,
           2,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/services/image_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
           null,
           null
         ]
@@ -131,12 +174,41 @@
         "lines": [
           1,
           1,
-          1,
+          2,
           1,
           null,
           null,
           1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/api/v1/learning_resources_controller.rb": {
+        "lines": [
           1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/video_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
           null,
           null
         ]
@@ -157,12 +229,6 @@
           null
         ]
       },
-      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/recipe_serializer.rb": {
         "lines": [
           1,
@@ -178,6 +244,18 @@
           null
         ]
       },
+      "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/facades/image_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nicole_esquer/turing/3module/projects/lunch_and_learn/app/serializers/learning_resource_serializer.rb": {
         "lines": [
           0,
@@ -186,6 +264,7 @@
           null,
           0,
           null,
+          0,
           0,
           0,
           0
@@ -214,6 +293,6 @@
         }
       }
     },
-    "timestamp": 1668583855
+    "timestamp": 1668589796
   }
 }
